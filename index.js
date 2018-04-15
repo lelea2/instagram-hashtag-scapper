@@ -6,6 +6,7 @@ let keyWord = '';
 
 process.argv.forEach((val, index, array) => {
   console.log(index + ': ' + val);
+  //proscess.argv[2]
   keyWord = val;
 });
 
